@@ -49,24 +49,37 @@ This challenge will test your understanding of linking, structure, forms, tables
     <!-- Navigation bar: Link to sections and other HTML files -->
     <nav>
         <!-- Example: <a href="#about">About Section</a> | <a href="#contact">Contact Section</a> | <a href="about.html">About Page</a> | <a href="contact.html">Contact Page</a> -->
+         <a href="./about.html">About</a><br>
+         <a href="./contact.html">Contact</a><br>
+         <a href="#2">iframe</a><br>
+         <a href="#about-section">About Me</a><br>
+         <a href="#contact-section">Contact</a>
+
     </nav>
     <hr>
     <!-- Main content area -->
     <div class="main-content" id="main-content">
         <!-- Section 1: About  add id call it about section -->
-        <section >
+         <h1>About Me</h1>
+        <section id="about-section">
             <!-- Your About content here -->
+           <p>Hello! Welcome to my homepage. I'm learning HTML and building this project.</p>  
         </section>
         <!-- Section 2: add id call it  Contact  -->
-        <section >
+         <h1>Contact</h1>
+        <section id="contact-section">
             <!-- Your Contact content here -->
+             <p>If you want to contact me,you can check the contact details. </p>
         </section>
     </div>
     <hr>
+    <section id="2">
     <!-- Embed another HTML file using iframe add a youtube video -->
     <div class="iframe-area" id="iframe-area">
         <!-- Example: <iframe src="about.html" width="400" height="200"></iframe> -->
-    </div>
+        <iframe width="560" height="400" src="https://www.youtube.com/embed/gtSTsmLAy-Y?si=YkP_AP0OHuTU4Jxh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://en.wikipedia.org/wiki/HTML" width="400" height="400" frameborder="2"></iframe>
+        </section>
     <hr>
     <!-- Small form with labels and inputs -->
     <div class="form-area" id="form-area">
@@ -79,18 +92,37 @@ This challenge will test your understanding of linking, structure, forms, tables
             <input type="submit" value="Submit">
         </form>
         -->
+        <h1>Contact</h1>
+        <form >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <input type="submit" value="Submit">
+        </form>
     </div>
     <hr>
     <!-- Table to display names but dont copy mine add more names and more rows atleast 3 rows and columns -->
     <div class="table-area" id="table-area">
-        <!-- Example:
-        <table>
-            <tr><th>Name</th></tr>
-            <tr><td>Alice</td></tr>
-            <tr><td>Bob</td></tr>
-            <tr><td>Charlie</td></tr>
+        <h1>Team Members</h1>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+            </tr>
+            <tr>
+                <td>Hanadi</td>
+                <td>Designer</td>
+            </tr>
+            <tr>
+                <td>Ahmed</td>
+                <td>Developer</td>
+            </tr>
+            <tr>
+                <td>Sarah</td>
+                <td>Project Manager</td>
+            </tr>
         </table>
-        -->
     </div>
     <!-- Add comments throughout your code explaining your choices! -->
 </body>

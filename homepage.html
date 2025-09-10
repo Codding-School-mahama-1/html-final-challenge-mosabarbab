@@ -51,68 +51,29 @@ This challenge will test your understanding of linking, structure, forms, tables
     <!-- Navigation bar: Link to sections and other HTML files -->
     <nav id="home-nav">
         <!-- Example: <a href="#about">About Section</a> | <a href="#contact">Contact Section</a> | <a href="about.html">About Page</a> | <a href="contact.html">Contact Page</a> -->
-          <!-- These links allow users to navigate to onther HTML page -->
-           <ul>
-        <li><a href="about.html">About Page</a></li>
-        <li><a href="contact.html"> Contact Page</a></li>
-        <li><a href="#ABOUT">About Section</a></li>
-        <li><a href="#CONTACT">Contact Section</a></li> 
-         </ul>
     </nav>
 
     <hr>
     <!-- Main content area -->
     <div class="main-content" id="main-content">
         <!-- Section 1: About  add id call it about section -->
-
-        <!-- Section 1 About section given an ID linking -->
-    <div id="ABOUT">
-        <section id="aboutse">
+        <section >
             <!-- Your About content here -->
-              <h3>About me</h3>
-     <p>
-        Iam Musab Arbab, a web developer with skills in HTML, CSS, and Python.
-        I enjoy creating clean, user-friendly websites and aim to grow into a 
-        professional software developer while building projects and sharing educational content.
-    </p>
         </section>
     </div>
         <!-- Section 2: add id call it  Contact  -->
-
-        <!-- Section 2 Contact section given an ID linking -->
-         <div id="CONTACT">
-        <section>
+        <section >
             <!-- Your Contact content here -->
-              <h3>Contact Me</h3>
-    </form>
-
-        <!-- Contact informatoin-->
-      <table id="contact-table" border="1">
-        <tr>
-            <th>Contact Method</th>
-            <th>Details</th>
-        </tr>
-        <tr>
-            <td>Email</td>
-            <td><a href="mailto:msbarbab69@gmail.com">msbarbab69@gmail.com</a></td>
-        </tr>
-        <tr>
-            <td>Phone</td>
-            <td><a href="tel:+250 724-118-811">+250-724-118-811</a></td>
-        </tr>
-       
-    </table>
         </section>
         </div>
     </div>
     <hr>
+    <section id="2">
     <!-- Embed another HTML file using iframe add a youtube video -->
  <iframe width="560" height="315" src="https://www.youtube.com/embed/jVzwGWSl0uo?si=AwKIjndx_l4dc0ML"
   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <!-- Example: <iframe src="about.html" width="400" height="200"></iframe> -->
-   <div class="iframe-area" id="iframe-area"></div>
-         <iframe src="https://en.wikipedia.org/wiki/Programming_language" width="600" height="300vh"></iframe>
     </div>
     <hr>
     <!-- Small form with labels and inputs -->
@@ -126,54 +87,30 @@ This challenge will test your understanding of linking, structure, forms, tables
             <input type="submit" value="Submit">
         </form>
         -->
-
-         <!-- The form uses <label> with for attributes  -->
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
-        <br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-        <br>
-            <button type="submit">Submit</button>
-        </form>
     </div>
     <hr>
     <!-- Table to display names but dont copy mine add more names and more rows atleast 3 rows and columns -->
     <div class="table-area" id="table-area">
-        <!-- Example:
-        <table>
-            <tr><th>Name</th></tr>
-            <tr><td>Alice</td></tr>
-            <tr><td>Bob</td></tr>
-            <tr><td>Charlie</td></tr>
+        <h1>Team Members</h1>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Role</th>
+            </tr>
+            <tr>
+                <td>Hanadi</td>
+                <td>Designer</td>
+            </tr>
+            <tr>
+                <td>Ahmed</td>
+                <td>Developer</td>
+            </tr>
+            <tr>
+                <td>Sarah</td>
+                <td>Project Manager</td>
+            </tr>
         </table>
         -->
-        
-        <!-- Table uses <th> for headers and <td> for data. -->
-
-        <table border="2">
-        <tr>
-            <th>Name</th>
-             <th>Age</th>
-             <th>Gander</th>
-        </tr>
-        <tr>
-            <td>Mosab</td>
-            <td>43</td>
-            <td>M</td>
-        </tr>
-        <tr>
-            <td>Hani</td>
-            <td>23</td>
-            <td>M</td>
-        </tr>
-        <tr>
-            <td>Ali</td>
-            <td>4</td>
-            <td>M</td>
-        </tr>
-   
     </div>
     <!-- Add comments throughout your code explainin -->
 </body>
